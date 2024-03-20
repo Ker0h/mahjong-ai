@@ -102,5 +102,5 @@ const tileImages = {
   
 
 export default function TileIcon(props) {
-  return <img src={tileImages[props.name]} alt={props.name} />;
+  return <img src={tileImages[props.name]} alt={props.name} width={60} />;
 }
