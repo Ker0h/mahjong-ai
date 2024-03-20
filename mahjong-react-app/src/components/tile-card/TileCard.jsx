@@ -6,9 +6,8 @@ import TileIcon from '../tile-icon/TileIcon';
 function TileCard({ tile }) {
   return (
     <div className="tile-card">
-      <TileIcon name={"bamboo1"} />
-      <h2>Bamboo 1</h2>
-      <p>Some text about the tile</p>
+      <TileIcon name={tile.image} />
+      <h2>{tile.name}</h2>
     </div>
   );
 }
