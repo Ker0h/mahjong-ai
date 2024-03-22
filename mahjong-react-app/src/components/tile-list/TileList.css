@@ -1,4 +1,4 @@
 /* Colour all borders white */
-table {
-  border: 1px solid white;
+th, tr, td {
+  border: 2px solid white;
 }
