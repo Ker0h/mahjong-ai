@@ -1,7 +1,5 @@
 import { Outlet } from "react-router-dom"
-import TileList from './components/tile-list/TileList'
 import Navbar from './components/navbar/Navbar'
-import './App.css'
 
 function App() {
   const tiles = [
@@ -51,19 +49,12 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Learn Mahjong, the Chinese Way!</h1>
-      </header>
       <main>
         <section>
           <Navbar />
         </section>
         <section>
           <Outlet />
-        </section>
-        <section>
-          <h2>Mahjong Tiles</h2>
-          <TileList tiles={tiles} />
         </section>
       </main>
     </div>

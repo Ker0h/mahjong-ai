@@ -2,7 +2,7 @@ function About() {
   return (
     <div>
       <article>
-        <h2>About Mahjong</h2>
+        <h2 className="text-3xl">About Mahjong</h2>
         <p>
           Mahjong is a tile-based game that was developed in China during the Qing dynasty
            and has spread throughout the world since the early 20th century. 

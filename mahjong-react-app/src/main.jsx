@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import About from './components/about/About'
-import Rules from './components/about/rules/Rules'
+import Rules from './components/rules/Rules'
 
 import {
   createBrowserRouter,

@@ -1,5 +1,4 @@
 import TileIcon from "../tile-icon/TileIcon";
-import "./TileList.css";
 
 function TileList({ tiles }) {
     return (
