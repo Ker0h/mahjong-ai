@@ -1,5 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet } from "react-router-dom"
-import Navbar from './components/navbar/Navbar'
+import { Container, Row, Col } from 'react-bootstrap'
+import Navigation from './components/navigation/Navigation'
 
 function App() {
   const tiles = [
@@ -49,14 +51,14 @@ function App() {
 
   return (
     <div className="App">
-      <main>
-        <section>
-          <Navbar />
-        </section>
-        <section>
-          <Outlet />
-        </section>
-      </main>
+      <Container fluid>
+        <Row>
+          <Col>
+            <Navigation />
+          </Col>
+        </Row>
+        <Outlet />
+      </Container>      
     </div>
   )
 }

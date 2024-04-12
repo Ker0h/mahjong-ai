@@ -1,4 +1,4 @@
-function About() {
+function History() {
   return (
     <div>
       <article>
@@ -23,4 +23,4 @@ function About() {
   );
 }
 
-export default About;
+export default History;
